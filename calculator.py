@@ -1,19 +1,28 @@
+num1 = int(input("Enter first number: \n"))
+num2 = int(input("Enter second number: \n"))
+
 def add(x, y):
-    result = #function here
-    return result
+    return (x + y)
+
+print(add(num1, num2))
 
 def subtract(x, y):
-    result = #function here
-    return result
+    return x - y
+    
+print(subtract(num1, num2))
 
 def multiply(x, y):
-    result = #function here
-    return result
+    return x * y
+
+print(multiply(num1, num2))
 
 def divide(x, y):
-    result = #function here
-    return result
+    return x / y
 
-def square(x, y):
-    result = #function here
-    return result
+print(divide(num1, num2))
+
+def square(x):
+    return x ** 2
+
+print(square(num1))
+print(square(num2))
